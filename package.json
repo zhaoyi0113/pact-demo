@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+		"start:pact": "docker-compose up -d",
+		"stop:pact": "docker-compose down",
     "publish:pacts": "jest src/consumer.spec.js",
 		"verify:provider": "jest src/provider.spec.js"
   },
