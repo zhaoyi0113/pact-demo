@@ -13,11 +13,10 @@ describe('Pact Verification', () => {
     opts = {
       provider: providerName,
       providerBaseUrl: `http://localhost:${port}`,
-      // pactUrls: [pactFile], // if you don't use a broker
       pactBrokerUrl: 'http://localhost:9292',
       publishVerificationResult: true,
       tags: ['prod'],
-      providerVersion: '1.0.' + process.env.HOSTNAME,
+      providerVersion: '1.0.0',
     };
 
     app = server.listen(port, () => {

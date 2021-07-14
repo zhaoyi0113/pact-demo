@@ -8,6 +8,7 @@
     "stop:pact": "docker-compose down",
     "publish:pacts": "jest src/rest/consumer.spec.js",
     "verify:pacts": "jest src/rest/provider.spec.js",
+    "verify:graphql:pacts": "jest src/graphql/provider.spec.js",
     "publish:graphql:pacts": "jest src/graphql/consumer.spec.js"
   },
   "dependencies": {
