@@ -23,3 +23,12 @@ Run below command to verify provider, it should show `1 interaction, 0 failures`
 ```
 yarn verify:pacts
 ```
+
+## Graphql Demo
+
+There is a `graphql` example in the code, you can run the similar command to test graphql pacts:
+
+```
+yarn publish:graphql:pacts
+yarn verify:graphql:pacts
+```
