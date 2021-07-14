@@ -1,7 +1,7 @@
 const { Publisher } = require('@pact-foundation/pact');
 
 const { Order } = require('../order');
-const { fetchOrders } = require('./orderClient');
+const { fetchOrders } = require('./consumerClient');
 const { provider, pactFile } = require('../pact');
 
 describe('Pact with Order API', () => {
