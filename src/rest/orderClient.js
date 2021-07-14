@@ -1,5 +1,5 @@
 const request = require('superagent')
-const { Order } = require('./order')
+const { Order } = require('../order')
 
 const fetchOrders = () => {
   return request.get(`http://localhost:${process.env.API_PORT}/orders`).then(

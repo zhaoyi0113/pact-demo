@@ -1,7 +1,7 @@
 const Verifier = require('@pact-foundation/pact').Verifier;
 const getPort = require('get-port');
 const { server } = require('./provider.js');
-const { providerName, pactFile } = require('./pact.js');
+const { providerName, pactFile } = require('../pact.js');
 let port;
 let opts;
 

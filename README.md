@@ -21,5 +21,5 @@ If it runs successfully, open your `http://localhost:9292` on your browser, it s
 Run below command to verify provider, it should show `1 interaction, 0 failures`.
 
 ```
-yarn verify:provider
+yarn verify:pacts
 ```

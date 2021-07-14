@@ -1,8 +1,8 @@
 const { Publisher } = require('@pact-foundation/pact');
 
-const { Order } = require('./order');
+const { Order } = require('../order');
 const { fetchOrders } = require('./orderClient');
-const { provider, pactFile } = require('./pact');
+const { provider, pactFile } = require('../pact');
 
 describe('Pact with Order API', () => {
   // Start the mock service on a randomly available port,

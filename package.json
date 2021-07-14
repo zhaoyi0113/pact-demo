@@ -4,10 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-		"start:pact": "docker-compose up -d",
-		"stop:pact": "docker-compose down",
-    "publish:pacts": "jest src/consumer.spec.js",
-		"verify:provider": "jest src/provider.spec.js"
+    "start:pact": "docker-compose up -d",
+    "stop:pact": "docker-compose down",
+    "publish:pacts": "jest src/rest/consumer.spec.js",
+    "verify:pacts": "jest src/rest/provider.spec.js"
   },
   "dependencies": {
     "@pact-foundation/pact": "^9.16.0",
